@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="home.png" alt="Home" class="home-icon">
+      <h1 id="styled-name"></h1>
+      <nav class="main-nav">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Project details</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
+  </ul>
+</nav>
+
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project details</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <section id="about" class="about">
+    <img src="profile.jpg.png" alt="Profile Picture" class="profile-pic">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <h3>Rasamsetty L C Lasya</h3>
+      <p>I am a CSIT student passionate about technology, web development, and learning new things.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill">
+        <img src="html-logo.png" alt="HTML" class="skill-logo">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="css-logo.png" alt="CSS" class="skill-logo">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="js-logo.png" alt="JavaScript" class="skill-logo">
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Personalized Grocery Reminder App</h3>
+      <p>A smart app that reminds users to restock groceries based on their shopping habits.</p>
+    </div>
+    <div class="project-card">
+      <h3>Social Media Dashboard</h3>
+      <p>Analyzes engagement and growth trends across social media platforms.</p>
+    </div>
+    <div class="project-card">
+      <h3>Automatic Object Counter</h3>
+      <p>Counts objects passing through a sensor using Arduino and IR sensor.</p>
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div id="recommendation-list">
+      <div class="rec-card">
+        <p>"I am a hardworking student with great enthusiasm for learning."</p>
+        <p>— Lecturer</p>
+      </div>
+    </div>
+
+    <form id="rec-form">
+      <input id="rec-text" placeholder="Write a recommendation" required>
+      <input id="rec-author" placeholder="Your name" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <div id="confirm-modal" class="modal hidden">
+    <div class="modal-inner">
+      <p id="confirm-msg"></p>
+      <button id="confirm-ok">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

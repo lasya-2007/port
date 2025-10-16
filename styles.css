@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbeafe;
+  padding: 10px 20px;
+}
+
+#styled-name {
+  color: #1e3a8a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  color: #2563eb;
+  font-style: italic;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.skill-list {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f3f4f6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.skill-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.projects {
+  padding: 20px;
+}
+
+.project-card {
+  background: #f9fafb;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.rec-card {
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-inner {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+#styled-name {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;  /* Underline on hover */
+  color: #2563eb;              /* Changes color */
+  font-style: italic;           /* Italic on hover */
+}
+.home-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+section {
+  padding: 40px 20px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+
