@@ -155,4 +155,12 @@ body {
   color: #111827;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  margin: 0;
+  padding-top: 80px; /* space for header */
+}
+
 
